@@ -1,0 +1,1376 @@
+{
+
+	"assignedLabels": [
+		{
+			"actions": [ ],
+			"busyExecutors": 0,
+			"clouds": [ ],
+			"description": "the master Jenkins node",
+			"idleExecutors": 2,
+			"loadStatistics": { },
+			"name": "master",
+			"nodes": [
+				{
+					"nodeName": ""
+				}
+			],
+			"offline": false,
+			"tiedJobs": [ ],
+			"totalExecutors": 2,
+			"propertiesList": [ ]
+		}
+	],
+	"mode": "NORMAL",
+	"nodeDescription": "the master Jenkins node",
+	"nodeName": "",
+	"numExecutors": 2,
+	"description": null,
+	"jobs": [
+		{
+			"actions": [
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ },
+				{ }
+			],
+			"description": "<h2><a href=\"ws/target/logs/docs/index.html\" target=\"_blank\">API Documentation</a></h2>\r\n<h2>PHP Depend Metrics:</h2>\r\n<img src=\"ws/target/logs/phpdepend-chart.svg\" type=\"image/svg+xml\" width=\"450\" />\r\n<img src=\"ws/target/logs/phpdepend-pyramid.svg\" type=\"image/svg+xml\" width=\"450\" />",
+			"displayName": "MAM Analyze Build",
+			"displayNameOrNull": null,
+			"name": "MAM Analyze Build",
+			"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/",
+			"buildable": true,
+			"builds": [
+				{
+					"number": 16,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/16/"
+				},
+				{
+					"number": 15,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/15/"
+				},
+				{
+					"number": 14,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/14/"
+				},
+				{
+					"number": 13,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/13/"
+				},
+				{
+					"number": 12,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/12/"
+				},
+				{
+					"number": 11,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/11/"
+				},
+				{
+					"number": 10,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/10/"
+				},
+				{
+					"number": 9,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/9/"
+				},
+				{
+					"number": 8,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/8/"
+				},
+				{
+					"number": 7,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/7/"
+				},
+				{
+					"number": 6,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/6/"
+				},
+				{
+					"number": 5,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/5/"
+				},
+				{
+					"number": 4,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/4/"
+				},
+				{
+					"number": 3,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/3/"
+				},
+				{
+					"number": 2,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/2/"
+				},
+				{
+					"number": 1,
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/1/"
+				}
+			],
+			"color": "red",
+			"firstBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/1/"
+			},
+			"healthReport": [
+				{
+					"description": "No xml report files found for checkstyle",
+					"iconUrl": "health-00to19.png",
+					"score": 0
+				},
+				{
+					"description": "Build stability: All recent builds failed.",
+					"iconUrl": "health-00to19.png",
+					"score": 0
+				},
+				{
+					"description": "Test Result: 1 test failing out of a total of 413 tests.",
+					"iconUrl": "health-80plus.png",
+					"score": 99
+				}
+			],
+			"inQueue": false,
+			"keepDependencies": false,
+			"lastBuild": {
+				"number": 16,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/16/"
+			},
+			"lastCompletedBuild": {
+				"number": 16,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/16/"
+			},
+			"lastFailedBuild": {
+				"number": 16,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/16/"
+			},
+			"lastStableBuild": {
+				"number": 7,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/7/"
+			},
+			"lastSuccessfulBuild": {
+				"number": 7,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/7/"
+			},
+			"lastUnstableBuild": null,
+			"lastUnsuccessfulBuild": {
+				"number": 16,
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/16/"
+			},
+			"nextBuildNumber": 17,
+			"property": [
+				{ },
+				{
+					"wallDisplayName": null
+				}
+			],
+			"queueItem": null,
+			"concurrentBuild": false,
+			"downstreamProjects": [ ],
+			"scm": { },
+			"upstreamProjects": [ ]
+		},
+		{
+			"actions": [
+				{ },
+				{ },
+				{ }
+			],
+			"description": "<h2><a href=\"ws/target/logs/docs/index.html\" target=\"_blank\">API Documentation</a></h2>",
+			"displayName": "MAM Documentation",
+			"displayNameOrNull": null,
+			"name": "MAM Documentation",
+			"url": "http://192.168.0.230:8080/job/MAM%20Documentation/",
+			"buildable": true,
+			"builds": [
+				{
+					"number": 13,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/13/"
+				},
+				{
+					"number": 12,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/12/"
+				},
+				{
+					"number": 11,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/11/"
+				},
+				{
+					"number": 10,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/10/"
+				},
+				{
+					"number": 9,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/9/"
+				},
+				{
+					"number": 8,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/8/"
+				},
+				{
+					"number": 7,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/7/"
+				},
+				{
+					"number": 6,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/6/"
+				},
+				{
+					"number": 5,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/5/"
+				},
+				{
+					"number": 4,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/4/"
+				},
+				{
+					"number": 3,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/3/"
+				},
+				{
+					"number": 2,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/2/"
+				},
+				{
+					"number": 1,
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/1/"
+				}
+			],
+			"color": "blue",
+			"firstBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/1/"
+			},
+			"healthReport": [
+				{
+					"description": "Build stability: No recent builds failed.",
+					"iconUrl": "health-80plus.png",
+					"score": 100
+				}
+			],
+			"inQueue": false,
+			"keepDependencies": false,
+			"lastBuild": {
+				"number": 13,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/13/"
+			},
+			"lastCompletedBuild": {
+				"number": 13,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/13/"
+			},
+			"lastFailedBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/1/"
+			},
+			"lastStableBuild": {
+				"number": 13,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/13/"
+			},
+			"lastSuccessfulBuild": {
+				"number": 13,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/13/"
+			},
+			"lastUnstableBuild": null,
+			"lastUnsuccessfulBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/1/"
+			},
+			"nextBuildNumber": 14,
+			"property": [
+				{ },
+				{
+					"wallDisplayName": null
+				}
+			],
+			"queueItem": null,
+			"concurrentBuild": false,
+			"downstreamProjects": [ ],
+			"scm": { },
+			"upstreamProjects": [ ]
+		},
+		{
+			"actions": [
+				{ },
+				{ },
+				{ },
+				{ }
+			],
+			"description": "",
+			"displayName": "MAM Main Build",
+			"displayNameOrNull": "MAM Main Build",
+			"name": "mam-main-build",
+			"url": "http://192.168.0.230:8080/job/mam-main-build/",
+			"buildable": true,
+			"builds": [
+				{
+					"number": 134,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/134/"
+				},
+				{
+					"number": 133,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/133/"
+				},
+				{
+					"number": 132,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/132/"
+				},
+				{
+					"number": 131,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/131/"
+				},
+				{
+					"number": 130,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/130/"
+				},
+				{
+					"number": 129,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/129/"
+				},
+				{
+					"number": 128,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/128/"
+				},
+				{
+					"number": 127,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/127/"
+				},
+				{
+					"number": 126,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/126/"
+				},
+				{
+					"number": 125,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/125/"
+				},
+				{
+					"number": 124,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/124/"
+				},
+				{
+					"number": 123,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/123/"
+				},
+				{
+					"number": 122,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/122/"
+				},
+				{
+					"number": 121,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/121/"
+				},
+				{
+					"number": 120,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/120/"
+				},
+				{
+					"number": 119,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/119/"
+				},
+				{
+					"number": 118,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/118/"
+				},
+				{
+					"number": 117,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/117/"
+				},
+				{
+					"number": 116,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/116/"
+				},
+				{
+					"number": 115,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/115/"
+				},
+				{
+					"number": 114,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/114/"
+				},
+				{
+					"number": 113,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/113/"
+				},
+				{
+					"number": 112,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/112/"
+				},
+				{
+					"number": 111,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/111/"
+				},
+				{
+					"number": 110,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/110/"
+				},
+				{
+					"number": 109,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/109/"
+				},
+				{
+					"number": 108,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/108/"
+				},
+				{
+					"number": 107,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/107/"
+				},
+				{
+					"number": 106,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/106/"
+				},
+				{
+					"number": 105,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/105/"
+				},
+				{
+					"number": 104,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/104/"
+				},
+				{
+					"number": 103,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/103/"
+				},
+				{
+					"number": 102,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/102/"
+				},
+				{
+					"number": 101,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/101/"
+				},
+				{
+					"number": 100,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/100/"
+				},
+				{
+					"number": 99,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/99/"
+				},
+				{
+					"number": 98,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/98/"
+				},
+				{
+					"number": 97,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/97/"
+				},
+				{
+					"number": 96,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/96/"
+				},
+				{
+					"number": 95,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/95/"
+				},
+				{
+					"number": 94,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/94/"
+				},
+				{
+					"number": 93,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/93/"
+				},
+				{
+					"number": 92,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/92/"
+				},
+				{
+					"number": 91,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/91/"
+				},
+				{
+					"number": 90,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/90/"
+				},
+				{
+					"number": 89,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/89/"
+				},
+				{
+					"number": 88,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/88/"
+				},
+				{
+					"number": 87,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/87/"
+				},
+				{
+					"number": 86,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/86/"
+				},
+				{
+					"number": 85,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/85/"
+				},
+				{
+					"number": 84,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/84/"
+				},
+				{
+					"number": 83,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/83/"
+				},
+				{
+					"number": 82,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/82/"
+				},
+				{
+					"number": 81,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/81/"
+				},
+				{
+					"number": 80,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/80/"
+				},
+				{
+					"number": 79,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/79/"
+				},
+				{
+					"number": 78,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/78/"
+				},
+				{
+					"number": 77,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/77/"
+				},
+				{
+					"number": 76,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/76/"
+				},
+				{
+					"number": 75,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/75/"
+				},
+				{
+					"number": 74,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/74/"
+				},
+				{
+					"number": 73,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/73/"
+				},
+				{
+					"number": 72,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/72/"
+				},
+				{
+					"number": 71,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/71/"
+				},
+				{
+					"number": 70,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/70/"
+				},
+				{
+					"number": 69,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/69/"
+				},
+				{
+					"number": 68,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/68/"
+				},
+				{
+					"number": 67,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/67/"
+				},
+				{
+					"number": 66,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/66/"
+				},
+				{
+					"number": 65,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/65/"
+				},
+				{
+					"number": 64,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/64/"
+				},
+				{
+					"number": 63,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/63/"
+				},
+				{
+					"number": 62,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/62/"
+				},
+				{
+					"number": 61,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/61/"
+				},
+				{
+					"number": 60,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/60/"
+				},
+				{
+					"number": 59,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/59/"
+				},
+				{
+					"number": 58,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/58/"
+				},
+				{
+					"number": 57,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/57/"
+				},
+				{
+					"number": 56,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/56/"
+				},
+				{
+					"number": 55,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/55/"
+				},
+				{
+					"number": 54,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/54/"
+				},
+				{
+					"number": 53,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/53/"
+				},
+				{
+					"number": 52,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/52/"
+				},
+				{
+					"number": 51,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/51/"
+				},
+				{
+					"number": 50,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/50/"
+				},
+				{
+					"number": 49,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/49/"
+				},
+				{
+					"number": 48,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/48/"
+				},
+				{
+					"number": 47,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/47/"
+				},
+				{
+					"number": 46,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/46/"
+				},
+				{
+					"number": 45,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/45/"
+				},
+				{
+					"number": 44,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/44/"
+				},
+				{
+					"number": 43,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/43/"
+				},
+				{
+					"number": 42,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/42/"
+				},
+				{
+					"number": 41,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/41/"
+				},
+				{
+					"number": 40,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/40/"
+				},
+				{
+					"number": 39,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/39/"
+				},
+				{
+					"number": 38,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/38/"
+				},
+				{
+					"number": 37,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/37/"
+				},
+				{
+					"number": 36,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/36/"
+				},
+				{
+					"number": 35,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/35/"
+				},
+				{
+					"number": 34,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/34/"
+				},
+				{
+					"number": 33,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/33/"
+				},
+				{
+					"number": 32,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/32/"
+				},
+				{
+					"number": 31,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/31/"
+				},
+				{
+					"number": 30,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/30/"
+				},
+				{
+					"number": 29,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/29/"
+				},
+				{
+					"number": 28,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/28/"
+				},
+				{
+					"number": 27,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/27/"
+				},
+				{
+					"number": 26,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/26/"
+				},
+				{
+					"number": 25,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/25/"
+				},
+				{
+					"number": 24,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/24/"
+				},
+				{
+					"number": 23,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/23/"
+				},
+				{
+					"number": 22,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/22/"
+				},
+				{
+					"number": 21,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/21/"
+				},
+				{
+					"number": 20,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/20/"
+				},
+				{
+					"number": 19,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/19/"
+				},
+				{
+					"number": 18,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/18/"
+				},
+				{
+					"number": 17,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/17/"
+				},
+				{
+					"number": 16,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/16/"
+				},
+				{
+					"number": 15,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/15/"
+				},
+				{
+					"number": 14,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/14/"
+				},
+				{
+					"number": 13,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/13/"
+				},
+				{
+					"number": 12,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/12/"
+				},
+				{
+					"number": 11,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/11/"
+				},
+				{
+					"number": 10,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/10/"
+				},
+				{
+					"number": 9,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/9/"
+				},
+				{
+					"number": 8,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/8/"
+				},
+				{
+					"number": 7,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/7/"
+				},
+				{
+					"number": 6,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/6/"
+				},
+				{
+					"number": 5,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/5/"
+				},
+				{
+					"number": 4,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/4/"
+				},
+				{
+					"number": 3,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/3/"
+				},
+				{
+					"number": 2,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/2/"
+				},
+				{
+					"number": 1,
+					"url": "http://192.168.0.230:8080/job/mam-main-build/1/"
+				}
+			],
+			"color": "blue",
+			"firstBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/1/"
+			},
+			"healthReport": [
+				{
+					"description": "Build stability: No recent builds failed.",
+					"iconUrl": "health-80plus.png",
+					"score": 100
+				}
+			],
+			"inQueue": false,
+			"keepDependencies": false,
+			"lastBuild": {
+				"number": 134,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/134/"
+			},
+			"lastCompletedBuild": {
+				"number": 134,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/134/"
+			},
+			"lastFailedBuild": {
+				"number": 126,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/126/"
+			},
+			"lastStableBuild": {
+				"number": 134,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/134/"
+			},
+			"lastSuccessfulBuild": {
+				"number": 134,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/134/"
+			},
+			"lastUnstableBuild": {
+				"number": 19,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/19/"
+			},
+			"lastUnsuccessfulBuild": {
+				"number": 126,
+				"url": "http://192.168.0.230:8080/job/mam-main-build/126/"
+			},
+			"nextBuildNumber": 135,
+			"property": [
+				{ },
+				{
+					"wallDisplayName": "MAM Main Build"
+				}
+			],
+			"queueItem": null,
+			"concurrentBuild": false,
+			"downstreamProjects": [
+				{
+					"name": "maxdome",
+					"url": "http://192.168.0.230:8080/job/maxdome/",
+					"color": "blue"
+				},
+				{
+					"name": "prosiebensat1",
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/",
+					"color": "blue"
+				}
+			],
+			"scm": { },
+			"upstreamProjects": [ ]
+		},
+		{
+			"actions": [
+				{ },
+				{ },
+				{ },
+				{ }
+			],
+			"description": "",
+			"displayName": "Maxdome",
+			"displayNameOrNull": "Maxdome",
+			"name": "maxdome",
+			"url": "http://192.168.0.230:8080/job/maxdome/",
+			"buildable": true,
+			"builds": [
+				{
+					"number": 37,
+					"url": "http://192.168.0.230:8080/job/maxdome/37/"
+				},
+				{
+					"number": 36,
+					"url": "http://192.168.0.230:8080/job/maxdome/36/"
+				},
+				{
+					"number": 35,
+					"url": "http://192.168.0.230:8080/job/maxdome/35/"
+				},
+				{
+					"number": 34,
+					"url": "http://192.168.0.230:8080/job/maxdome/34/"
+				},
+				{
+					"number": 33,
+					"url": "http://192.168.0.230:8080/job/maxdome/33/"
+				},
+				{
+					"number": 32,
+					"url": "http://192.168.0.230:8080/job/maxdome/32/"
+				},
+				{
+					"number": 31,
+					"url": "http://192.168.0.230:8080/job/maxdome/31/"
+				},
+				{
+					"number": 30,
+					"url": "http://192.168.0.230:8080/job/maxdome/30/"
+				},
+				{
+					"number": 29,
+					"url": "http://192.168.0.230:8080/job/maxdome/29/"
+				},
+				{
+					"number": 28,
+					"url": "http://192.168.0.230:8080/job/maxdome/28/"
+				},
+				{
+					"number": 27,
+					"url": "http://192.168.0.230:8080/job/maxdome/27/"
+				},
+				{
+					"number": 26,
+					"url": "http://192.168.0.230:8080/job/maxdome/26/"
+				},
+				{
+					"number": 25,
+					"url": "http://192.168.0.230:8080/job/maxdome/25/"
+				},
+				{
+					"number": 24,
+					"url": "http://192.168.0.230:8080/job/maxdome/24/"
+				},
+				{
+					"number": 23,
+					"url": "http://192.168.0.230:8080/job/maxdome/23/"
+				},
+				{
+					"number": 22,
+					"url": "http://192.168.0.230:8080/job/maxdome/22/"
+				},
+				{
+					"number": 21,
+					"url": "http://192.168.0.230:8080/job/maxdome/21/"
+				},
+				{
+					"number": 20,
+					"url": "http://192.168.0.230:8080/job/maxdome/20/"
+				},
+				{
+					"number": 19,
+					"url": "http://192.168.0.230:8080/job/maxdome/19/"
+				},
+				{
+					"number": 18,
+					"url": "http://192.168.0.230:8080/job/maxdome/18/"
+				},
+				{
+					"number": 17,
+					"url": "http://192.168.0.230:8080/job/maxdome/17/"
+				},
+				{
+					"number": 16,
+					"url": "http://192.168.0.230:8080/job/maxdome/16/"
+				},
+				{
+					"number": 15,
+					"url": "http://192.168.0.230:8080/job/maxdome/15/"
+				},
+				{
+					"number": 14,
+					"url": "http://192.168.0.230:8080/job/maxdome/14/"
+				},
+				{
+					"number": 13,
+					"url": "http://192.168.0.230:8080/job/maxdome/13/"
+				},
+				{
+					"number": 12,
+					"url": "http://192.168.0.230:8080/job/maxdome/12/"
+				},
+				{
+					"number": 11,
+					"url": "http://192.168.0.230:8080/job/maxdome/11/"
+				},
+				{
+					"number": 10,
+					"url": "http://192.168.0.230:8080/job/maxdome/10/"
+				},
+				{
+					"number": 9,
+					"url": "http://192.168.0.230:8080/job/maxdome/9/"
+				},
+				{
+					"number": 8,
+					"url": "http://192.168.0.230:8080/job/maxdome/8/"
+				},
+				{
+					"number": 7,
+					"url": "http://192.168.0.230:8080/job/maxdome/7/"
+				},
+				{
+					"number": 6,
+					"url": "http://192.168.0.230:8080/job/maxdome/6/"
+				},
+				{
+					"number": 5,
+					"url": "http://192.168.0.230:8080/job/maxdome/5/"
+				},
+				{
+					"number": 4,
+					"url": "http://192.168.0.230:8080/job/maxdome/4/"
+				},
+				{
+					"number": 3,
+					"url": "http://192.168.0.230:8080/job/maxdome/3/"
+				},
+				{
+					"number": 2,
+					"url": "http://192.168.0.230:8080/job/maxdome/2/"
+				},
+				{
+					"number": 1,
+					"url": "http://192.168.0.230:8080/job/maxdome/1/"
+				}
+			],
+			"color": "blue",
+			"firstBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/maxdome/1/"
+			},
+			"healthReport": [
+				{
+					"description": "Build stability: No recent builds failed.",
+					"iconUrl": "health-80plus.png",
+					"score": 100
+				}
+			],
+			"inQueue": false,
+			"keepDependencies": false,
+			"lastBuild": {
+				"number": 37,
+				"url": "http://192.168.0.230:8080/job/maxdome/37/"
+			},
+			"lastCompletedBuild": {
+				"number": 37,
+				"url": "http://192.168.0.230:8080/job/maxdome/37/"
+			},
+			"lastFailedBuild": {
+				"number": 15,
+				"url": "http://192.168.0.230:8080/job/maxdome/15/"
+			},
+			"lastStableBuild": {
+				"number": 37,
+				"url": "http://192.168.0.230:8080/job/maxdome/37/"
+			},
+			"lastSuccessfulBuild": {
+				"number": 37,
+				"url": "http://192.168.0.230:8080/job/maxdome/37/"
+			},
+			"lastUnstableBuild": null,
+			"lastUnsuccessfulBuild": {
+				"number": 15,
+				"url": "http://192.168.0.230:8080/job/maxdome/15/"
+			},
+			"nextBuildNumber": 38,
+			"property": [
+				{ },
+				{
+					"wallDisplayName": null
+				}
+			],
+			"queueItem": null,
+			"concurrentBuild": false,
+			"downstreamProjects": [ ],
+			"scm": { },
+			"upstreamProjects": [
+				{
+					"name": "mam-main-build",
+					"url": "http://192.168.0.230:8080/job/mam-main-build/",
+					"color": "blue"
+				}
+			]
+		},
+		{
+			"actions": [
+				{ },
+				{ },
+				{ },
+				{ }
+			],
+			"description": "",
+			"displayName": "ProSiebenSat1",
+			"displayNameOrNull": "ProSiebenSat1",
+			"name": "prosiebensat1",
+			"url": "http://192.168.0.230:8080/job/prosiebensat1/",
+			"buildable": true,
+			"builds": [
+				{
+					"number": 11,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/11/"
+				},
+				{
+					"number": 10,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/10/"
+				},
+				{
+					"number": 9,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/9/"
+				},
+				{
+					"number": 8,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/8/"
+				},
+				{
+					"number": 7,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/7/"
+				},
+				{
+					"number": 6,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/6/"
+				},
+				{
+					"number": 5,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/5/"
+				},
+				{
+					"number": 4,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/4/"
+				},
+				{
+					"number": 3,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/3/"
+				},
+				{
+					"number": 2,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/2/"
+				},
+				{
+					"number": 1,
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/1/"
+				}
+			],
+			"color": "blue",
+			"firstBuild": {
+				"number": 1,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/1/"
+			},
+			"healthReport": [
+				{
+					"description": "Build stability: No recent builds failed.",
+					"iconUrl": "health-80plus.png",
+					"score": 100
+				}
+			],
+			"inQueue": false,
+			"keepDependencies": false,
+			"lastBuild": {
+				"number": 11,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/11/"
+			},
+			"lastCompletedBuild": {
+				"number": 11,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/11/"
+			},
+			"lastFailedBuild": {
+				"number": 3,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/3/"
+			},
+			"lastStableBuild": {
+				"number": 11,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/11/"
+			},
+			"lastSuccessfulBuild": {
+				"number": 11,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/11/"
+			},
+			"lastUnstableBuild": null,
+			"lastUnsuccessfulBuild": {
+				"number": 3,
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/3/"
+			},
+			"nextBuildNumber": 12,
+			"property": [
+				{ },
+				{
+					"wallDisplayName": null
+				}
+			],
+			"queueItem": null,
+			"concurrentBuild": false,
+			"downstreamProjects": [ ],
+			"scm": { },
+			"upstreamProjects": [
+				{
+					"name": "mam-main-build",
+					"url": "http://192.168.0.230:8080/job/mam-main-build/",
+					"color": "blue"
+				}
+			]
+		}
+	],
+	"overallLoad": {
+		"busyExecutors": { },
+		"queueLength": { },
+		"totalExecutors": { },
+		"totalQueueLength": { }
+	},
+	"primaryView": {
+		"description": null,
+		"jobs": [
+			{
+				"name": "MAM Analyze Build",
+				"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/",
+				"color": "red"
+			},
+			{
+				"name": "MAM Documentation",
+				"url": "http://192.168.0.230:8080/job/MAM%20Documentation/",
+				"color": "blue"
+			},
+			{
+				"name": "mam-main-build",
+				"url": "http://192.168.0.230:8080/job/mam-main-build/",
+				"color": "blue"
+			},
+			{
+				"name": "maxdome",
+				"url": "http://192.168.0.230:8080/job/maxdome/",
+				"color": "blue"
+			},
+			{
+				"name": "prosiebensat1",
+				"url": "http://192.168.0.230:8080/job/prosiebensat1/",
+				"color": "blue"
+			}
+		],
+		"name": "Alle",
+		"property": [ ],
+		"url": "http://192.168.0.230:8080/"
+	},
+	"quietingDown": false,
+	"slaveAgentPort": 0,
+	"unlabeledLoad": {
+		"busyExecutors": { },
+		"queueLength": { },
+		"totalExecutors": { }
+	},
+	"useCrumbs": false,
+	"useSecurity": false,
+	"views": [
+		{
+			"description": null,
+			"jobs": [
+				{
+					"name": "MAM Analyze Build",
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/",
+					"color": "red"
+				},
+				{
+					"name": "MAM Documentation",
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/",
+					"color": "blue"
+				},
+				{
+					"name": "mam-main-build",
+					"url": "http://192.168.0.230:8080/job/mam-main-build/",
+					"color": "blue"
+				},
+				{
+					"name": "maxdome",
+					"url": "http://192.168.0.230:8080/job/maxdome/",
+					"color": "blue"
+				},
+				{
+					"name": "prosiebensat1",
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/",
+					"color": "blue"
+				}
+			],
+			"name": "Alle",
+			"property": [ ],
+			"url": "http://192.168.0.230:8080/"
+		},
+		{
+			"description": null,
+			"jobs": [
+				{
+					"name": "MAM Analyze Build",
+					"url": "http://192.168.0.230:8080/job/MAM%20Analyze%20Build/",
+					"color": "red"
+				},
+				{
+					"name": "MAM Documentation",
+					"url": "http://192.168.0.230:8080/job/MAM%20Documentation/",
+					"color": "blue"
+				},
+				{
+					"name": "mam-main-build",
+					"url": "http://192.168.0.230:8080/job/mam-main-build/",
+					"color": "blue"
+				},
+				{
+					"name": "maxdome",
+					"url": "http://192.168.0.230:8080/job/maxdome/",
+					"color": "blue"
+				},
+				{
+					"name": "prosiebensat1",
+					"url": "http://192.168.0.230:8080/job/prosiebensat1/",
+					"color": "blue"
+				}
+			],
+			"name": "MAM Build Monitor",
+			"property": [ ],
+			"url": "http://192.168.0.230:8080/view/MAM%20Build%20Monitor/"
+		},
+		{
+			"description": null,
+			"jobs": [ ],
+			"name": "test",
+			"property": [ ],
+			"url": "http://192.168.0.230:8080/view/test/"
+		}
+	]
+
+}

@@ -1,0 +1,116 @@
+* {
+	color: #fff;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000;
+	margin: 8px;
+	height: 100%;
+}
+
+
+
+#jobs {
+	overflow: hidden;
+}
+
+
+
+.job {
+	border-radius: 15px;
+	height: 20%;
+	margin-bottom: 3px;
+	text-align: center;
+}
+	.job:last-child {
+		margin-bottom: 0;
+	}
+
+	.job h2 {
+		width: 100%;
+	}
+
+	.job.failed {
+		background-color: #ff2500;
+		-moz-transition: background-color 500ms linear;
+		-ms-transition: background-color 500ms linear;
+		-o-transition: background-color 500ms linear;
+		-webkit-transition: background-color 500ms linear;
+		transition: background-color 500ms linear;
+	}
+		.job.failed.building {
+			background-color: #c21e00;
+			-moz-transition: background-color 500ms linear;
+			-ms-transition: background-color 500ms linear;
+			-o-transition: background-color 500ms linear;
+			-webkit-transition: background-color 500ms linear;
+			transition: background-color 500ms linear;
+		}
+
+	.job.success {
+		background-color: #00ac00;
+		-moz-transition: background-color 500ms linear;
+		-ms-transition: background-color 500ms linear;
+		-o-transition: background-color 500ms linear;
+		-webkit-transition: background-color 500ms linear;
+		transition: background-color 500ms linear;
+	}
+		.job.success.building {
+			background-color: #008b00;
+			-moz-transition: background-color 500ms linear;
+			-ms-transition: background-color 500ms linear;
+			-o-transition: background-color 500ms linear;
+			-webkit-transition: background-color 500ms linear;
+			transition: background-color 500ms linear;
+		}
+
+	.job .vcs-info {
+		background-color: #ff5a00;
+		border-radius: 8px 8px 0 0;
+		margin: 0 20px 0px;
+		padding: 3px;
+	}
+
+	.job .culprits {
+		background-color: #bb622b;
+		border-radius: 0 0 8px 8px;
+		margin: 0 20px;
+		padding: 3px;
+	}
+
+		.job .culprits h3 {
+			display: inline-block;
+			font-size: 1.7em;
+			padding-right: 10px;
+		}
+
+		.job .culprits ul,
+		.job .vcs-info ul {
+			display: inline;
+			list-style-type: none;
+		}
+
+			.job .culprits ul li,
+			.job .vcs-info ul li {
+				display: inline;
+				font-size: 1.7em;
+				padding-right: 10px;
+			}
+			.job .vcs-info ul li {
+				display: block;
+			}
+			.job .vcs-info ul li .msg {
+				text-overflow: ellipsis;
+				-moz-binding: url("ellipsis.xml#ellipsis");
+				display: block;
+				width: 200px;
+			}
+				.job .culprits ul li:after {
+					content: ','
+				}
+				.job .culprits ul li:last-child:after {
+					content: ''
+				}
