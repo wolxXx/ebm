@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>JS Tests</name>
+    <groupId>jsTests</groupId>
+    <artifactId>jsTests</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <baseDir>file:///${project.basedir}</baseDir>
+    </properties>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>com.github.timurstrekalov</groupId>
+                <artifactId>jasmine-maven-plugin</artifactId>
+                <version>1.1.0</version>
+                <configuration>
+                    <jasmineTargetDir>target/general</jasmineTargetDir>
+                    <jsSrcDir>../js</jsSrcDir>
+                    <jsTestSrcDir>./spec</jsTestSrcDir>
+                    <preloadSources>
+
+                        <!-- stubs -->
+                        <!--source>${baseDir}/stubs/Stubs.js</source-->
+
+                        <!-- dependencies -->
+                        <source>${baseDir}/lib/jasmine/jasmine-jquery.js</source>
+                        <source>${baseDir}/target/general/src/lib/jquery-1.7.2.min.js</source>
+                        <source>${baseDir}/target/general/src/lib/jquery.fittext.js</source>
+
+                    </preloadSources>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>general</id>
+                        <goals>
+                            <goal>generateManualRunner</goal>
+                            <goal>resources</goal>
+                            <goal>testResources</goal>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>searls-maven-thirdparty</id>
+            <url>http://searls-maven-repository.googlecode.com/svn/trunk/thirdparty
+            </url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>searls-maven-releases</id>
+            <url>http://searls-maven-repository.googlecode.com/svn/trunk/releases
+            </url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>searls-maven-snapshots</id>
+            <url>http://searls-maven-repository.googlecode.com/svn/trunk/snapshots
+            </url>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>
